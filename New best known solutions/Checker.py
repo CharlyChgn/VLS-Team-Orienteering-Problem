@@ -90,7 +90,7 @@ def checker(instanceName, solutionName):
     # DISPLAY
     # =======================================
     print("Solution's profit : ",prof)
-    print("Cost of every builded route : \n",totalCostPerVehicle)
+    print("Cost of every route : \n",totalCostPerVehicle)
     # check time limit
     if test:
         print("The solution respect the time limit of ", tmax)
