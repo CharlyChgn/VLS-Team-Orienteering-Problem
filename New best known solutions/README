@@ -1,0 +1,3 @@
+We added a solution checker, here in Julia language (but easily adaptable to other language), to confirm that our new best known solutions are feasible. Just use "include("SolutionChecker_gr229_gen2_m4.jl")" in a Julia terminal to compile it.
+
+We also updated the format of the route so that it can be checked easily using the initial instance file (in old format, first m vehicles were the first vertice of the file while the ID of every others were then incremented with respect to m
