@@ -1,5 +1,12 @@
 Here are displayed the new best known solutions found by our algorithm for the Team Orienteering Problem and the set of Dang et al. (2013)
 
-We added a solution checker, here in Julia language (but easily adaptable to other language), to confirm that our new best known solutions are feasible. Just use "include("SolutionChecker_gr229_gen2_m4.jl")" in a Julia terminal to compile it.
+We added a solution checker, here in Python, to confirm that our new best known solutions are feasible. 
+
+To use it use the command line following :
+checker.py -i "rd400_gen1_m2.txt" -s "rd400_gen1_m2_Solution.txt"
+
+-i is the instance file name, in default format
+-s is the solution file name, given in this folder for the 3 new best known solutions
 
 We also updated the format of the route so that it can be checked easily using the initial instance file (in old format, first m vehicles were the first vertice of the file while the ID of every others were then incremented with respect to m)
+
