@@ -107,15 +107,13 @@ def main():
                 instanceName=sys.argv[i+1]
             elif sys.argv[i] == '-s':
                 solutionName=sys.argv[i+1]
+        print("Instance file : ", instanceName)
+        print("Solution file : ", solutionName,'\n')
+    
+        checker(instanceName,solutionName)
 
     else:
         print("INVALID NUMBER OF ARGUMENTS : ONLY NEED THE INSTANCE FILE (-i 'name') AND THE SOLUTION FILE (-s 'name')")
-
-    print("Instance file : ", instanceName)
-    print("Solution file : ", solutionName)
-
-    checker(instanceName,solutionName)
-
 
 if __name__ == '__main__':
     main()
