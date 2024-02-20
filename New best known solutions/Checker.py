@@ -51,8 +51,10 @@ def checker(instanceName, solutionName):
         if i%2 != 0:
             route = []
             for j in range(0,len(array)):
+                # first vertice = depot
                 if j == 0 :
                     route.append(0)
+                # last vertice = depot
                 elif j == len(array)-1:
                     route.append(n-1)
                 else :
